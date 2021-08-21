@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CreateObjects" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\scripts\createobjects.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="f_ad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ad.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ae" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ae.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_af" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_af.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ag.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ai.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_al" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_al.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_am" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_am.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ao.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_aq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_aq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_as" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_as.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_at" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_at.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_au" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_au.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_aw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_aw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ax.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_az" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_az.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ba.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bb.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bd.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_be" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_be.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bj.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_br" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_br.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_by" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_by.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_bz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_bz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ca.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cd.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ch.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ci.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ck.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_co" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_co.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cx.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_cz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_cz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_de" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_de.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_dj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_dj.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_dk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_dk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_dm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_dm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_do" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_do.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_dz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_dz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ec.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ee.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_eg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_eg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_eh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_eh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_er" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_er.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_es" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_es.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_et" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_et.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fj.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_fr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_fr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ga.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gb.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gb_eng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gb-eng.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gb_nir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gb-nir.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gb_sct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gb-sct.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gb_wls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gb-wls.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gd.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ge.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gp.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_gy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_gy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_hk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_hk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_hm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_hm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_hn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_hn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_hr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_hr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ht.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_hu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_hu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_id" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_id.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ie.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_il" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_il.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_im" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_im.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_in.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_io" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_io.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_iq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_iq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ir.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_is" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_is.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_it" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_it.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_je" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_je.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_jm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_jm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_jo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_jo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_jp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_jp.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ke.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ki.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_km" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_km.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kp.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ky.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_kz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_kz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_la" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_la.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lb.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_li" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_li.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ls" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ls.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_lv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_lv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ly.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ma.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_md" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_md.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_me.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ml.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mo.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mp.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mq.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ms.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mx.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_my" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_my.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_mz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_mz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_na" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_na.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ne.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ng.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ni.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_no.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_np" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_np.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_nz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_nz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_om" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_om.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pe.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ph.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ps.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_pw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_pw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_py" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_py.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_qa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_qa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_re" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_re.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ro.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_rs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_rs.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ru.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_rw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_rw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sa.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sb.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sd.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_se" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_se.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sh.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_si" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_si.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sj.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_so" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_so.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ss.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_st" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_st.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sx.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_sz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_sz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_td" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_td.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_th" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_th.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tj.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tl.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_to" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_to.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tr.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tv.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_tz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_tz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ua.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ug.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_um" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_um.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_us" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_us.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_uy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_uy.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_uz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_uz.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_va" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_va.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_vc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_vc.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ve" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ve.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_vg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_vg.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_vi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_vi.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_vn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_vn.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_vu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_vu.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_wf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_wf.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ws" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ws.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_xk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_xk.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_ye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_ye.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_yt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_yt.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_za" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_za.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_zm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_zm.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="f_zw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flags\f_zw.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gps.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MiniHelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\minihelp.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

@@ -1,0 +1,13 @@
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.exe
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.deps.json
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.runtimeconfig.json
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.runtimeconfig.dev.json
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.dll
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\bin\Debug\netcoreapp3.1\Globalization.pdb
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.AssemblyInfoInputs.cache
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.AssemblyInfo.cs
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.csproj.CoreCompileInputs.cache
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.dll
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.pdb
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.genruntimeconfig.cache
+D:\Desarrollos\Demos\GitHub\Demos\DataGen\ConsoleApp1\obj\Debug\netcoreapp3.1\Globalization.csproj.AssemblyReference.cache
