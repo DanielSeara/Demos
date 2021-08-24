@@ -9,11 +9,11 @@ AS
     DECLARE 
        @Isthere INT;
     DECLARE 
-       @ColumnName SYSNAME = 'Created by';
-    DECLARE 
        @CheckForColumn NVARCHAR(300) =
        'select @Isthere =count(*) from INFORMATION_SCHEMA.COLUMNS T where TABLE_SCHEMA=@schema and TABLE_NAME=@TableName and T.COLUMN_NAME=@ColumnName'
     ;
+    DECLARE 
+       @ColumnName SYSNAME = 'Created by';
     EXEC [sp_executesql] 
        @CheckForColumn
      ,
