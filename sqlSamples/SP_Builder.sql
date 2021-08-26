@@ -6,7 +6,6 @@ DECLARE
 /* 
 	Variables
 */
-
 /* New line*/
 DECLARE 
    @CrLf NCHAR(2) =
@@ -16,8 +15,6 @@ DECLARE
 /* New line plus comma*/
 DECLARE 
    @CrLfComma NCHAR(3) = @CrLf + ',';
-
-
 DECLARE 
    @CrLfAnd NVARCHAR(8) = @CrLf + ' AND ';
 
@@ -65,7 +62,7 @@ INSERT INTO @ColumnsDefs
  , [Nullable]
  , [IsPk]
   )
-       SELECT    
+       SELECT DISTINCT    
           [INFORMATION_SCHEMA].[COLUMNS].[COLUMN_NAME]
         , [INFORMATION_SCHEMA].[COLUMNS].[DATA_TYPE]
         , CASE
@@ -79,35 +76,44 @@ INSERT INTO @ColumnsDefs
                + CHARINDEX('xml', [Data_Type])
                + CHARINDEX('sql_variant', [Data_Type])
                + CHARINDEX('hierarchyid', [Data_Type])
-            WHEN 0 THEN ISNULL([CHARACTER_OCTET_LENGTH],
+            WHEN 0 THEN ISNULL([CHARACTER_MAXIMUM_LENGTH],
             [NUMERIC_PRECISION])
                                          ELSE NULL
           END AS [Expr1]
-          /* This define the column size, when required, or the numeric precision for the numeric columns */
         , [INFORMATION_SCHEMA].[COLUMNS].[NUMERIC_SCALE]
         , [INFORMATION_SCHEMA].[COLUMNS].[IS_NULLABLE]
         , CASE ISNULL([INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
         [CONSTRAINT_NAME], N'')
             WHEN '' THEN 0
                                          ELSE 1
-          END AS [IsPrimaryKey]
-       /* mark the prmary keys columns*/
+          END AS [IsPrimaryKey] /* Marks the Primary Keys Columns*/
+
        FROM    
-          [INFORMATION_SCHEMA].[COLUMNS]
-            LEFT OUTER JOIN
+          [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS]
+            INNER JOIN
               [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE]
             ON
-              [INFORMATION_SCHEMA].[COLUMNS].[TABLE_SCHEMA]
+              [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS].
+              [UNIQUE_CONSTRAINT_SCHEMA]
               = [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
               [TABLE_SCHEMA]
               AND
-              [INFORMATION_SCHEMA].[COLUMNS].[TABLE_NAME]
+              [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS].
+              [UNIQUE_CONSTRAINT_NAME]
               = [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
-              [TABLE_NAME]
+              [CONSTRAINT_NAME]
+              RIGHT OUTER JOIN
+                [INFORMATION_SCHEMA].[COLUMNS]
+              ON
+              [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
+              [TABLE_SCHEMA]
+              = [INFORMATION_SCHEMA].[COLUMNS].[TABLE_SCHEMA]
               AND
-              [INFORMATION_SCHEMA].[COLUMNS].[COLUMN_NAME]
-              = [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
-              [COLUMN_NAME]
+              [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].[TABLE_NAME]
+              = [INFORMATION_SCHEMA].[COLUMNS].[TABLE_NAME]
+              AND
+              [INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].[COLUMN_NAME]
+              = [INFORMATION_SCHEMA].[COLUMNS].[COLUMN_NAME]
        WHERE
              (
                     [INFORMATION_SCHEMA].[COLUMNS].[TABLE_SCHEMA]
@@ -116,7 +122,6 @@ INSERT INTO @ColumnsDefs
              (
                     [INFORMATION_SCHEMA].[COLUMNS].[TABLE_NAME]
                     = @TableName);
-
 /* Mark those columns which are calculated, to not include them in the procedures*/
 
 UPDATE @ColumnsDefs
