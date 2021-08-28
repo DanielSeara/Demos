@@ -92,7 +92,7 @@ AS
             , CASE ISNULL([INFORMATION_SCHEMA].[CONSTRAINT_COLUMN_USAGE].
             [CONSTRAINT_NAME], N'')
                 WHEN '' THEN 0
-                                             ELSE 1
+                ELSE 1
               END AS [IsPrimaryKey]
            /* mark the prmary keys columns*/
            FROM    
